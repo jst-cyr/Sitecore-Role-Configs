@@ -81,9 +81,22 @@
   <ItemGroup>
     <Content Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Authoring.config">
       <SubType>Designer</SubType>
+      <TransformOnBuild>true</TransformOnBuild>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Authoring.Debug.config">
+      <DependentUpon>Sitecore.SharedSource.RoleConfigs.Authoring.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Authoring.Release.config">
+      <DependentUpon>Sitecore.SharedSource.RoleConfigs.Authoring.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Authoring.Sitecore80rev150427.config">
+      <DependentUpon>Sitecore.SharedSource.RoleConfigs.Authoring.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
     <None Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Delivery.Debug.config">
       <DependentUpon>Sitecore.SharedSource.RoleConfigs.Delivery.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
