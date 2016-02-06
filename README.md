@@ -5,4 +5,4 @@ Current transforms support generating configs for the following versions:
 
 - 8.0 rev 150812 (Update 5)
 - 8.0 rev 150621 (Update 4)
-- 8.0 rev 150427 (Update 3 - Partial support)
+- 8.0 rev 150427 (Update 3)
