@@ -10,6 +10,7 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 		Sitecore80rev150427|Any CPU = Sitecore80rev150427|Any CPU
+		Sitecore80rev151127|Any CPU = Sitecore80rev151127|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D3464CE7-CDF6-468F-9C22-DC3E3ACCEF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -18,6 +19,8 @@ Global
 		{D3464CE7-CDF6-468F-9C22-DC3E3ACCEF79}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D3464CE7-CDF6-468F-9C22-DC3E3ACCEF79}.Sitecore80rev150427|Any CPU.ActiveCfg = Sitecore80rev150427|Any CPU
 		{D3464CE7-CDF6-468F-9C22-DC3E3ACCEF79}.Sitecore80rev150427|Any CPU.Build.0 = Sitecore80rev150427|Any CPU
+		{D3464CE7-CDF6-468F-9C22-DC3E3ACCEF79}.Sitecore80rev151127|Any CPU.ActiveCfg = Sitecore80rev151127|Any CPU
+		{D3464CE7-CDF6-468F-9C22-DC3E3ACCEF79}.Sitecore80rev151127|Any CPU.Build.0 = Sitecore80rev151127|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
