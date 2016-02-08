@@ -3,6 +3,7 @@ Configuration files (and transforms to generate them) to let you set up CA/CD/Pr
 
 Current transforms support generating configs for the following versions:
 
+- 8.0 rev 151127 (Update 6)
 - 8.0 rev 150812 (Update 5)
 - 8.0 rev 150621 (Update 4)
 - 8.0 rev 150427 (Update 3)
