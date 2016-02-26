@@ -97,6 +97,14 @@
       <DependentUpon>Sitecore.SharedSource.RoleConfigs.Authoring.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
     </None>
+    <None Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Authoring.Sitecore80rev151127.config">
+      <DependentUpon>Sitecore.SharedSource.RoleConfigs.Authoring.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Authoring.Sitecore80rev160115.config">
+      <DependentUpon>Sitecore.SharedSource.RoleConfigs.Authoring.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
     <None Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Delivery.Debug.config">
       <DependentUpon>Sitecore.SharedSource.RoleConfigs.Delivery.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
@@ -112,6 +120,10 @@
     <Content Include="Properties\SlowCheetah\SlowCheetah.Transforms.targets" />
     <Content Include="packages.config" />
     <None Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Delivery.Sitecore80rev151127.config">
+      <DependentUpon>Sitecore.SharedSource.RoleConfigs.Delivery.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Delivery.Sitecore80rev160115.config">
       <DependentUpon>Sitecore.SharedSource.RoleConfigs.Delivery.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
     </None>
@@ -131,6 +143,10 @@
       <DependentUpon>Sitecore.SharedSource.RoleConfigs.Processing.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
     </None>
+    <None Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Processing.Sitecore80rev160115.config">
+      <DependentUpon>Sitecore.SharedSource.RoleConfigs.Processing.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -147,6 +163,11 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Sitecore80rev151127|AnyCPU'">
     <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Sitecore80rev160115|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
