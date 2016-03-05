@@ -12,5 +12,5 @@ Current transforms support generating configs for the following versions:
 ## Sources
 8.0 configuration files are based on instructions provided by Sitecore on the doc.sitecore.net site:
 - Authoring: https://doc.sitecore.net/sitecore_experience_platform/80/setting_up__maintaining/experience_database/configuring_servers/configure_a_content_management_server
-- Delivery: https://doc.sitecore.net/sitecore_experience_platform/setting_up__maintaining/experience_database/configuring_servers/configure_a_content_delivery_server
-- Processing: https://doc.sitecore.net/sitecore_experience_platform/setting_up__maintaining/experience_database/configuring_servers/configure_a_processing_server
+- Delivery: https://doc.sitecore.net/sitecore_experience_platform/80/setting_up__maintaining/experience_database/configuring_servers/configure_a_content_delivery_server
+- Processing: https://doc.sitecore.net/sitecore_experience_platform/80/setting_up__maintaining/experience_database/configuring_servers/configure_a_processing_server
