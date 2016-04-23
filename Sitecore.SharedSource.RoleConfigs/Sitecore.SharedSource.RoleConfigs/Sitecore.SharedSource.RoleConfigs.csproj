@@ -105,6 +105,10 @@
       <DependentUpon>Sitecore.SharedSource.RoleConfigs.Authoring.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
     </None>
+    <None Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Authoring.Sitecore81rev160302.config">
+      <DependentUpon>Sitecore.SharedSource.RoleConfigs.Authoring.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
     <None Include="App_Config\Include\z_FinalConfigs\Sitecore.SharedSource.RoleConfigs.Delivery.Debug.config">
       <DependentUpon>Sitecore.SharedSource.RoleConfigs.Delivery.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
@@ -165,6 +169,11 @@
     <OutputPath>bin\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Sitecore80rev160115|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Sitecore81rev160302|AnyCPU'">
     <OutputPath>bin\</OutputPath>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
